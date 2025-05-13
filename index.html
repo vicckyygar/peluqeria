@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Brillo Urbano - Peluquería</title>
+  <link rel="stylesheet" href="peluqueria.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Brillo Urbano</h1>
+    <p>Tu estilo, nuestro arte</p>
+  </header>
+
+  <main>
+    <section class="galeria">
+      <h2>Nuestro Estilo</h2>
+      <div class="imagenes">
+        <img src="../paginasrandom/imagenes/pelo6.jpg" alt="Corte moderno">
+        <img src="../paginasrandom/imagenes//pelo7.jpg" alt="Corte moderno">
+        <img src="../paginasrandom/imagenes//pelo1.jpg" alt="Coloración profesional">
+        <img src="../paginasrandom/imagenes//pelo3.jpg" alt="Coloración profesional">
+        <img src="../paginasrandom/imagenes//pelo4.jpg" alt="Peinado elegante">
+        <img src="../paginasrandom/imagenes//pelo5.jpg" alt="Peinado elegante">
+      </div>
+    </section>
+
+    <section class="servicios">
+      <h2>Servicios</h2>
+      <ul>
+        <li>Corte clásico y moderno</li>
+        <li>Coloración profesional y fantasía</li>
+        <li>Peinados para eventos</li>
+        <li>Alisado progresivo</li>
+        <li>Nutrición y tratamiento capilar</li>
+        <li>Barbería y perfilado</li>
+        <li>Reflejos / Balayage</li>
+        <li>Secado y brushing</li>
+      </ul>
+    </section>
+
+    <section class="turnos">
+      <h2>Reservá tu turno</h2>
+      <form action="https://formsubmit.co/TU-CORREO@email.com" method="POST" id="form-turno">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="servicio">Servicio:</label>
+        <select id="servicio" name="servicio" required>
+          <option value="">Seleccioná...</option>
+          <option value="Corte">Corte</option>
+          <option value="Color">Color</option>
+          <option value="Peinado">Peinado</option>
+          <option value="Alisado">Alisado</option>
+          <option value="Nutrición">Nutrición</option>
+          <option value="Barbería">Barbería</option>
+        </select>
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required />
+
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora" required />
+
+        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://tusitio.com/gracias.html">
+
+        <button type="submit">Solicitar turno</button>
+      </form>
+    </section>
+
+   <section class="testimonios">
+  <h2>Testimonios</h2>
+  <blockquote>"Excelente atención y resultados hermosos!" - Ana</blockquote>
+  <blockquote>"Me hicieron el corte soñado. ¡Volveré seguro!" - Lucas</blockquote>
+  <blockquote>"Ambiente cálido y profesionalismo total." - Carla</blockquote>
+  <blockquote>"¡Me encantó el color que me aplicaron, justo lo que quería!" - Sofía</blockquote>
+  <blockquote>"Fui con una idea y salí con un look mejorado. Muy recomendados." - Tomás</blockquote>
+  <blockquote>"Los peinados que hacen para eventos son increíbles." - Martina</blockquote>
+  <blockquote>"Excelente relación calidad-precio. Muy profesionales." - Javier</blockquote>
+  <blockquote>"¡Me salvaron justo antes de una boda! Gracias por la rapidez." - Daniela</blockquote>
+</section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Brillo Urbano | Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
+
+
+
